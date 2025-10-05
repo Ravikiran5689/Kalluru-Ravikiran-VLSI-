@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Kalluru Ravi Kiran - Portfolio</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+  body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    font-family: 'Fira Code', monospace;
+    margin: 2rem auto;
+    max-width: 900px;
+    padding: 1rem;
+  }
+
+  .container {
+    text-align: center;
+    padding: 2rem 1rem;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    background: #161b22;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  }
+
+  img.profile-pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 4px solid #58a6ff;
+    margin-bottom: 1rem;
+    object-fit: cover;
+    box-shadow: 0 0 8px #58a6ffaa;
+  }
+
+  h1, h2, h3 {
+    color: #58a6ff;
+    margin-bottom: 0.25rem;
+  }
+
+  .intro {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+  }
+
+  a {
+    color: #58a6ff;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .badge {
+    display: inline-block;
+    background-color: #238636;
+    color: white;
+    border-radius: 9999px;
+    padding: 0.3em 0.8em;
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin: 0.2rem 0.4rem 0.8rem 0;
+  }
+  .badge-blue {
+    background-color: #58a6ff;
+  }
+  .badge-orange {
+    background-color: #ffa657;
+  }
+
+  section {
+    text-align: left;
+    margin-top: 2rem;
+    border-top: 1px solid #30363d;
+    padding-top: 1.5rem;
+  }
+  ul {
+    padding-left: 1.4rem;
+  }
+  li {
+    margin-bottom: 0.8rem;
+    line-height: 1.4;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.8rem;
+  }
+  th, td {
+    border: 1px solid #30363d;
+    padding: 0.8rem 1rem;
+    text-align: left;
+  }
+  th {
+    background-color: #0d1117;
+  }
+
+  .skill-levels {
+    margin-top: 1rem;
+  }
+  .skill {
+    margin-bottom: 1rem;
+  }
+  .skill-name {
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+  }
+  .progress-bar-bg {
+    background: #30363d;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 16px;
+  }
+  .progress-bar-fill {
+    background: #58a6ff;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    transition: width 0.6s ease;
+  }
+
+  footer {
+    margin-top: 3rem;
+    text-align: center;
+    color: #8b949e;
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <img src="image 11.jpg" alt="Profile Picture" class="profile-pic" />
+  <!-- Replace this URL with your actual profile image URL -->
+
+  <h1>Kalluru Ravi Kiran</h1>
+  <p class="intro">
+    RTL & Design Verfication Engineer | VLSI Enthusiast
+  </p>
+
+  <p>
+    <a href="mailto:krk5679@gmail.com">krk5679@gmail.com</a> &bull;
+    <a href="https://linkedin.com/in/kalluru-ravi-kiran-b02338217" target="_blank">LinkedIn</a>
+  </p>
+
+  <div>
+    <span class="badge badge-orange">VLSI Engineer</span>
+    <span class="badge badge-blue">SystemVerilog</span>
+    <span class="badge badge-blue">UVM Verification</span>
+    <span class="badge badge-orange">ASIC Based Verification</span>
+  </div>
+
+  <section>
+    <h2>About Me</h2>
+    <p>Enthusiastic ECE graduate specializing in digital system design and verification. Skilled in Verilog, SystemVerilog, and UVM methodologies, with deep experience in ASIC and FPGA development.</p>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <ul>
+      <li><strong>VLSI Intern</strong> at CODTECH INTERNSHIPS (Jan 2025 - Apr 2025)
+        <ul>
+          <li>Designed and verified digital circuits using Verilog and SystemVerilog.</li>
+          <li>Implemented UVM-based testbenches for complex RTL designs ensuring protocol compliance and functional correctness.</li>
+          <li>Collaborated with senior engineers on design verification tasks and improved test coverage.</li>
+        </ul>
+      </li>
+      <li><strong>Advanced VLSI Design Verification Trainee</strong> at Maven Silicon (Sep 2024 - May 2025)
+        <ul>
+          <li>Gained in-depth knowledge of UVM methodology and digital system testing.</li>
+          <li>Worked on RTL projects such as UART, router design, and bridge verification with practical lab exercises.</li>
+          <li>Developed reusable verification components and scoreboards for project simulation.</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Skills & Levels</h2>
+    <div class="skill-levels">
+      <div class="skill">
+        <div class="skill-name">Verilog / SystemVerilog</div>
+        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 90%;"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">UVM Methodology</div>
+        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 85%;"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">C & Java Programming</div>
+        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 70%;"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">EDA Tools (Questasim, Vivado, etc.)</div>
+        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 80%;"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">Digital Design Concepts (FSM, DFT, STA)</div>
+        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 90%;"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>UART RTL Design</strong> (Verilog)
+        <ul>
+          <li>Designed UART transmitter and receiver modules supporting simplex, half-duplex, and full-duplex communication.</li>
+          <li>Developed testbenches to simulate multiple serial communication modes for real-time verification.</li>
+          <li>Ensured compliance with standard UART protocol timing and data framing specifications.</li>
+        </ul>
+      </li>
+      <li><strong>Router UVM Verification</strong>
+        <ul>
+          <li>Implemented agent, monitor, and scoreboard components to verify router functionality using UVM.</li>
+          <li>Achieved 96% code coverage with assertion-based protocol compliance checks.</li>
+          <li>Automated simulation and regression testing in integrated environment.</li>
+        </ul>
+      </li>
+      <li><strong>APB to AHB Bridge Verification</strong>
+        <ul>
+          <li>Developed a comprehensive UVM testbench for APB to AHB bridge protocols.</li>
+          <li>Designed reusable components for functional and corner-case testing.</li>
+          <li>Performed detailed coverage analysis and bug reporting.</li>
+        </ul>
+      </li>
+      <li><strong>Up Down Counter Verification</strong>
+        <ul>
+          <li>Designed test cases for up/down counter including reset, clock synchronization, and boundary conditions.</li>
+          <li>Achieved 100% assertion coverage using functional coverage metrics.</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Degree</th>
+          <th>Institution</th>
+          <th>Years</th>
+          <th>Grade/CGPA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>B.Tech, Electronics & Communication Engineering</td>
+          <td>Raghu Engineering College</td>
+          <td>2020 - 2024</td>
+          <td>7.34 CGPA</td>
+        </tr>
+        <tr>
+          <td>Intermediate MPC</td>
+          <td>Sri Chaitanya Junior College</td>
+          <td>2018 - 2020</td>
+          <td>9.04 CGPA</td>
+        </tr>
+        <tr>
+          <td>SSC</td>
+          <td>Sarvani Vidyalaya</td>
+          <td>2018</td>
+          <td>9.71 CGPA</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Hobbies & Interests</h2>
+    <p>Designing | Video & Photo Editing | Travelling | Cricket | Music | Storytelling</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Kalluru Ravi Kiran - All Rights Reserved
+  </footer>
+</div>
+
+</body>
+</html>
